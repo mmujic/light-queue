@@ -3,7 +3,7 @@ const Queue = require('../lib/light-queue');
 
 let queue;
 
-describe("Simple Queue Test", function () {
+describe("Light Queue Test", function () {
     beforeEach(function (done) {
         queue = Queue();
         done();
