@@ -8,6 +8,8 @@ Simple yet Powerful FIFO (First in, First out) Queue for Javascript
 
 ___
 
+`npm install light-queue --save`
+
 ```javascript
 const Queue = require('light-queue');
 
