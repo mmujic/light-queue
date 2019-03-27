@@ -24,4 +24,9 @@ items.forEach(console.log);
 queue.push(100); queue.push(200); queue.push(300);
 let all = queue.drain();
 console.log(all.join(';'));
+
+if (queue.isEmpty()) {
+    queue.push(666);
+}
+console.log(queue.size());
 ```
