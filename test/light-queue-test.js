@@ -1,5 +1,5 @@
 const Assert = require('assert');
-const Queue = require('../lib/simple-queue');
+const Queue = require('../lib/light-queue');
 
 let queue;
 

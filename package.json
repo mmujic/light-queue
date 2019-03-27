@@ -1,6 +1,6 @@
 {
-  "name": "simple-queue",
-  "version": "0.0.1",
+  "name": "light-queue",
+  "version": "0.0.2",
   "description": "Simple yet Powerful FIFO Queue implementation",
   "main": "index.js",
   "scripts": {
@@ -18,9 +18,9 @@
   "author": "Muhamed Mujić",
   "license": "MIT",
   "bugs": {
-    "url": "https://github.com/mmujic/simple-queue/issues"
+    "url": "https://github.com/mmujic/light-queue/issues"
   },
-  "homepage": "https://github.com/mmujic/simple-queue#readme",
+  "homepage": "https://github.com/mmujic/light-queue#readme",
   "devDependencies": {
     "assert": "^1.4.1",
     "mocha": "^6.0.2"
