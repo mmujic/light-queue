@@ -1,6 +1,6 @@
 {
   "name": "light-queue",
-  "version": "0.0.3",
+  "version": "0.0.4",
   "description": "Simple yet Powerful FIFO Queue",
   "main": "index.js",
   "scripts": {
@@ -8,7 +8,7 @@
   },
   "repository": {
     "type": "git",
-    "url": "git+https://github.com/mmujic/simple-queue.git"
+    "url": "git+https://github.com/mmujic/light-queue.git"
   },
   "keywords": [
     "fifo",
