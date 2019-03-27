@@ -1,0 +1,28 @@
+{
+  "name": "simple-queue",
+  "version": "0.0.1",
+  "description": "Simple yet Powerful FIFO Queue implementation",
+  "main": "index.js",
+  "scripts": {
+    "test": "mocha"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/mmujic/simple-queue.git"
+  },
+  "keywords": [
+    "fifo",
+    "data",
+    "queue"
+  ],
+  "author": "Muhamed Mujić",
+  "license": "MIT",
+  "bugs": {
+    "url": "https://github.com/mmujic/simple-queue/issues"
+  },
+  "homepage": "https://github.com/mmujic/simple-queue#readme",
+  "devDependencies": {
+    "assert": "^1.4.1",
+    "mocha": "^6.0.2"
+  }
+}
