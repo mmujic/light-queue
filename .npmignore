@@ -1,3 +1,5 @@
 .buildkite
+.nyc_output
 .idea
+coverage
 test

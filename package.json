@@ -4,7 +4,7 @@
   "description": "Simple yet Powerful FIFO Queue",
   "main": "index.js",
   "scripts": {
-    "test": "mocha"
+    "test": "nyc mocha"
   },
   "repository": {
     "type": "git",
@@ -13,7 +13,8 @@
   "keywords": [
     "fifo",
     "data",
-    "queue"
+    "queue",
+    "nodejs"
   ],
   "author": "Muhamed Mujić",
   "license": "MIT",
@@ -23,6 +24,13 @@
   "homepage": "https://github.com/mmujic/light-queue#readme",
   "devDependencies": {
     "assert": "^1.4.1",
-    "mocha": "^6.0.2"
+    "mocha": "^6.0.2",
+    "nyc": "^13.3.0"
+  },
+  "nyc": {
+    "reporter": [
+      "lcov",
+      "text"
+    ]
   }
 }
