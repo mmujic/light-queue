@@ -25,7 +25,7 @@ console.log(item);              // 1
 
 queue.push("Hello"); queue.push("world");
 let items = queue.pop(2);
-console.log(items.join(' '));   // Hello World
+console.log(items.join(' '));   // Hello world
 
 queue.push(100); queue.push(200); queue.push(300);
 let all = queue.drain();
