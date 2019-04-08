@@ -101,4 +101,20 @@ describe("Light Queue Test", function () {
 
         done();
     });
+
+    it("Usage test", function (done) {
+        let stringQueue = Queue(['one', 'two', 'three']);
+        let numberQueue = Queue([1, 2, 3, 4, 5]);
+
+        Assert.strictEqual(stringQueue.size(), 3);
+        Assert.strictEqual(numberQueue.size(), 5);
+
+        let stringItem  = stringQueue.pop();
+        let numberItem = numberQueue.pop();
+
+        Assert.strictEqual(stringItem, 'one');
+        Assert.strictEqual(numberItem, 1);
+
+        done();
+    });
 });

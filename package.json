@@ -1,6 +1,6 @@
 {
   "name": "light-queue",
-  "version": "0.0.7",
+  "version": "0.0.8",
   "description": "Simple yet Powerful FIFO Queue",
   "main": "index.js",
   "scripts": {
