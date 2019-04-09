@@ -117,4 +117,18 @@ describe("Light Queue Test", function () {
 
         done();
     });
+
+    it("Check if parameter is immutable", function (done) {
+        let sentence = 'I am gonna get there first because I came first.';
+        let words = sentence.split(' ');
+        let itemsToPop = 5;
+        queue = Queue(words);
+
+        let part = queue.pop(itemsToPop);
+
+        Assert.strictEqual(part.join(' '), 'I am gonna get there');
+        Assert.strictEqual(queue.size(), words.length - itemsToPop);
+
+        done();
+    });
 });
